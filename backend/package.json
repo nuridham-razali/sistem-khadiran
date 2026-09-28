@@ -1,0 +1,45 @@
+{
+  "name": "geoattend-backend",
+  "version": "1.0.0",
+  "description": "Enterprise Employee Attendance Backend with Google Sheets DB, Geofencing & Face Verification",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "jest --runInBand --detectOpenHandles --forceExit",
+    "init-sheets": "node src/scripts/initSheets.js",
+    "seed-data": "node src/scripts/seedData.js"
+  },
+  "keywords": [
+    "attendance",
+    "geofencing",
+    "google-sheets",
+    "biometric",
+    "payroll"
+  ],
+  "author": "GeoAttend Engineering",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csv-stringify": "^6.5.2",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "googleapis": "^144.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ]
+  }
+}

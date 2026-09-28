@@ -1,0 +1,7 @@
+{
+  "employeeId": "EMP103",
+  "consentText": "I explicitly consent to workplace biometric face verification for attendance check-out.",
+  "consentedAt": "2026-09-28T01:37:27.443Z",
+  "retentionPolicyDays": 365,
+  "ipAddress": "captured_during_session"
+}

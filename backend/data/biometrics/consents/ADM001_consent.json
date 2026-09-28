@@ -1,0 +1,7 @@
+{
+  "employeeId": "ADM001",
+  "consentText": "Persetujuan biometrik presensi wajah Halagel (M) Sdn Bhd.",
+  "consentedAt": "2026-09-28T02:04:01.133Z",
+  "retentionPolicyDays": 365,
+  "ipAddress": "captured_during_session"
+}

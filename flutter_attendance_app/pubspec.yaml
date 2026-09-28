@@ -1,0 +1,28 @@
+name: flutter_attendance_app
+description: "GeoAttend - Enterprise Employee Attendance with GPS Geofencing, Face Verification & Google Sheets DB"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  intl: ^0.19.0
+  geolocator: ^13.0.1
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  camera: ^0.11.0+2
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
